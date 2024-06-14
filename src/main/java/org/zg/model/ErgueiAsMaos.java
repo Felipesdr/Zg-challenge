@@ -1,4 +1,4 @@
-package org.zg;
+package org.zg.model;
 
 import org.zg.util.AudioPlayer;
 import org.zg.util.Sincronizador;

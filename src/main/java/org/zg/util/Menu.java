@@ -1,6 +1,6 @@
 package org.zg.util;
 
-import org.zg.ErgueiAsMaos;
+import org.zg.model.ErgueiAsMaos;
 
 import java.util.Scanner;
 
