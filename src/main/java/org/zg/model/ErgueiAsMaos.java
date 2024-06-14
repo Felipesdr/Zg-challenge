@@ -15,6 +15,7 @@ public class ErgueiAsMaos {
     private static final String DEUS_DISSE_A_NOE = "Deus disse a Noé: Constrói uma arca";
     private static final String QUE_SEJA_FEITA = "Que seja feita";
     private static final String LOUVEMOS_AO_SENHOR = "Louvemos ao senhor";
+    private static final String POR_ISSO = "Por isso...!";
     private static final String E_ATENCAO_AGORA_PORQUE = "E atenção agora porque \n";
     private static final List<String> MEMBROS = List.of("Braço direito", ", braço esquerdo \n", "Perna direita", ", perna esquerda");
     private static final List<String> ACOES = List.of("Balança a cabeça", ", dá uma voltinha \n", "Dá um pulinho", " e abraço o irmão");
@@ -66,6 +67,7 @@ public class ErgueiAsMaos {
         estrofeAnimaizinhos("minhoquinha", "E os pinguins,");
         estrofeAnimaizinhos("canguru", "E o sapinho,");
         estrofeNoe();
+        System.out.println(POR_ISSO);
         estrofeErgueiAsMaos(3);
     }
 
