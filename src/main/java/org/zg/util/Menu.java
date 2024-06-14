@@ -10,6 +10,8 @@ public class Menu {
     private ErgueiAsMaos ergueiAsMaos = new ErgueiAsMaos();
     private Scanner sc = new Scanner(System.in);
     public void exibirMenu(){
+        Thread threadMusica = new Thread(() -> AudioPlayer.playAudio("D:/IdeaProjects/zg-challenge/audio-files/menu.wav"));
+        threadMusica.start();
 
         System.out.println("  _____          _            __  __                    _         _____               _            ______                      _               __  __  /\\/|             _ _ ");
         System.out.println(" |  __ \\        | |          |  \\/  |                  | |       |  __ \\             (_)          |  ____|                    (_)             |  \\/  ||/\\/             | | |");
@@ -42,5 +44,4 @@ public class Menu {
             }
         }
     }
-
 }
